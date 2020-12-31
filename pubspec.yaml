@@ -1,0 +1,190 @@
+name: traveliano
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  provider: ^4.0.4
+  animations: any
+  #url_launcher:
+  image_picker:
+  file_picker:  
+  flutter_spinkit: any
+  cloud_firestore: ^0.13.5
+  firebase_messaging: ^6.0.9
+  firebase_auth: any
+  firebase_storage: ^3.0.5
+  flutter_svg: ^0.17.3+1
+  google_maps_flutter: any
+  geolocator: any
+  http:
+  flutter_launcher_icons: any
+  smooth_star_rating: any
+  curved_navigation_bar: any
+  flip_card: any
+  intro_slider: ^2.2.9
+  flutter_images_slider:
+  flutter_range_slider:
+  numberpicker:
+  datetime_picker_formfield:
+  dropdown_formfield:
+  intl:
+  simple_animations: ^1.3.3
+  timeago:
+  charts_flutter: ^0.8.1
+  steps_indicator: ^0.3.1
+  font_awesome_flutter: any
+  #chip_list_choice: any
+  panorama: ^0.0.2
+  flare_flutter: ^2.0.3
+  counter_animation: ^0.0.2
+  flutter_inner_drawer: ^0.5.5+3
+  reviews_slider: ^1.0.5
+  shape_of_view: ^1.0.2
+  #flutter_datetime_picker: ^1.3.8
+  liquid_swipe:
+  shimmer: ^1.1.1
+  google_place: ^0.3.1
+  toggle_switch: ^0.1.4
+  like_button: ^1.0.1
+  flutter_cache_manager: ^1.4.0
+  path_provider: ^1.6.10
+
+  #mailer: ^3.0.4
+  #cloud_functions: any
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/img.jpg
+    - images/plane.png
+    - images/team.svg
+    - images/globe.svg
+    - images/fork.svg
+    - images/sleep.svg
+    - images/bad.svg
+    - images/khalifa.svg
+    - images/location.svg
+    - images/tourism.svg
+    - images/chat.svg
+    - images/crop.jpg
+    - images/map.svg
+    - images/k.jpg
+    - images/filter.svg
+    - images/travel.svg
+    - images/back.png
+    - images/travelgirl.svg
+    - images/back2.png
+    - images/travelboy.svg
+    - images/login.svg
+    - images/travelman.svg
+    - images/travelers.svg
+    - images/load.gif
+    - images/load2.gif
+    - images/circle.gif
+    - images/comment.gif
+    - images/default.png
+    - lib/animation/feel.flr
+    - images/defaultuser.png
+
+
+
+
+
+
+
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Bitter
+       fonts:
+         - asset: fonts/Bitter-Bold.ttf
+         - asset: fonts/Bitter-Regular.ttf
+         - asset: fonts/Bitter-Italic.ttf
+           style: italic
+     - family: Chewy
+       fonts:
+         - asset: fonts/Chewy-Regular.ttf
+           style: italic  
+             
+     - family: Merienda
+       fonts:
+         - asset: fonts/MeriendaOne-Regular.ttf
+           style: italic  
+     - family: Oswald
+       fonts:
+         - asset: fonts/FjallaOne-Regular.ttf
+           style: italic     
+     - family: Baloo
+       fonts:
+         - asset: fonts/BalooChettan-Regular.ttf
+           style: italic  
+     - family: Fjall
+       fonts:
+         - asset: fonts/FjallaOne-Regular.ttf
+           style: italic 
+     - family: Srira
+       fonts:
+         - asset: fonts/Sriracha-Regular.ttf
+           style: italic 
+     - family: Pacifico
+       fonts:
+         - asset: fonts/Pacifico-Regular.ttf
+           style: italic 
+
+
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

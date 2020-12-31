@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "959812953334",
+    "firebase_url": "https://traveliano-eefe4.firebaseio.com",
+    "project_id": "traveliano-eefe4",
+    "storage_bucket": "traveliano-eefe4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959812953334:android:094a8ed026616dba4778d7",
+        "android_client_info": {
+          "package_name": "com.example.traveliano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959812953334-2jbh1o3o8isua1qv3lr3ofj61k3qhe2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAef0VGnKQarO0dCS1ZaLiEdSb-6lNkrec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959812953334-2jbh1o3o8isua1qv3lr3ofj61k3qhe2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
